@@ -1,0 +1,16 @@
+name: flask-dd-otel
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.12
+  - pip
+  - setuptools<81.0.0  # Pin setuptools to avoid pkg_resources removal
+  - pip:
+      - flask==3.0.3
+      - opentelemetry-api==1.27.0
+      - opentelemetry-sdk==1.27.0
+      - opentelemetry-exporter-otlp-proto-grpc==1.27.0
+      - opentelemetry-instrumentation-flask==0.48b0
+      - opentelemetry-instrumentation==0.48b0
+      - importlib_metadata==8.4.0

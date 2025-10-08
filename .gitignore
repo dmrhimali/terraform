@@ -4,4 +4,6 @@
 # .tfstate files
 **/*.tfstate
 **/*.tfstate.*
+# **/*.tfvars
 .DS_Store
+datadog-ecs-lambda-observbility-pipeline/03_lambda_instrumentation/lambda-datadog-otel-instrumentation/otel-layer/python/lib/python3.13/site-packages/
